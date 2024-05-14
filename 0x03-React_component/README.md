@@ -1,1 +1,1 @@
-reacts props
+This file is about react component
