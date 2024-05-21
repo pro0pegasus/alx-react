@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Login from './Login';
+import Header from './Header';
 import { StyleSheetTestUtils } from 'aphrodite';
 
-describe('<Login />', () => {
+describe('<Header />', () => {
   beforeAll(() => {
     StyleSheetTestUtils.suppressStyleInjection();
   });
@@ -12,7 +12,7 @@ describe('<Login />', () => {
   });
 
   it('render without crashing', () => {
-    const wrapper = shallow(<Login />);
+    const wrapper = shallow(<Header />);
     expect(wrapper.exists());
   });
 });
